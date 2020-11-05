@@ -8,3 +8,6 @@ Webサイト制作課題 vol.1
 ## 使用言語
 ・HTML/CSS
 ・JavaScript
+
+## 使用ライブラリ
+・jQuery v 3.5.1
