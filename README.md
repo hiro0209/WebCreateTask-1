@@ -10,4 +10,4 @@ Webサイト制作課題 vol.1
 ・JavaScript
 
 ## 使用ライブラリ
-・jQuery v 3.5.1
+・jQuery v3.5.1
