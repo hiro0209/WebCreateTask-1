@@ -2,9 +2,170 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>株式会社アビサル・コーポレーション</title>
+	
+<!-- Style Sheet -->
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+	<!-- 背景画像 -->
+	<div id="background"></div>
+	
+	<!-- ヘッダー -->
+	<header>
+		<!-- ロゴ -->
+		<a id="logo" href="index.html"><img src="images/logo.png"></a>
+		
+		<!-- メニュー -->
+		<div class="menu">
+			<!-- 上のメニュー -->
+			<ul id="top-menu">
+				<li><a href="#">事業紹介</a></li>
+				<li><a href="#">社長のあいさつ</a></li>
+				<li><a href="#">エントリー</a></li>
+				<li><a href="#">アクセス</a></li>
+			</ul>
+			
+			<!-- 下のメニュー -->
+			<ul id="under-menu">
+				<li><a id="menu-home" href="index.html">ホーム</a></li>
+				<li><a id="menu-company-info">会社を知る</a></li>
+				<li><a id="menu-employee-info">社員紹介</a></li>
+				<li><a id="menu-recruit-info">採用情報</a></li>
+				<li><a id="menu-others">その他</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<!-- トップ画面 -->
+	<div class="top">
+		<div class="wrapper-top">
+			<!-- トップタイトル -->
+			<h1 id="toptitle"><img src="images/toptitle.png" alt="夢を現実にする会社　アビサルコーポレーション"></h1>
+		</div>
+	</div>
+	
+	<!-- メイン -->
+	<main>
+		<!-- 会社について知る -->
+		<div class="company-info">
+			<div class="wrapper-conpany-info">
+				<!-- メインタイトル：会社について知る -->
+				<h2 id="secondtitle"><img src="images/secondtitle.png" alt="会社について知る"></h2>
+				
+				<!-- メニュー -->
+				<ul id="company-menu">
+					<li id="company-menu-philosophy"><a href="#">
+						<p>企業理念</p>
+						<div id="company-menu-philosophy-image"></div>
+					</a></li>
+					<li id="company-menu-buisiness"><a href="#">
+						<p>事業紹介</p>
+						<div id="company-menu-buisiness-image"></div>
+					</a></li>
+					<li id="company-menu-overview"><a href="#">
+						<p>会社概要</p>
+						<div id="company-menu-overview-image"></div>
+					</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 新着情報 -->
+		<div class="news">
+			<div class="wrapper-news">
+				<!-- メインタイトル：新着情報 -->
+				<h2 id="thirdtitle"><img src="images/thirdtitle.png" alt="新着情報"></h2>
+				
+				<!-- お知らせ一覧(新しい順に8件) -->
+				<div class="news-box">
+					<ul>
+						<li><span>2020.11.09</span>お知らせお知らせ</li>
+						<li><span>2020.11.08</span>お知らせお知らせ</li>
+						<li><span>2020.11.07</span>お知らせお知らせ</li>
+						<li><span>2020.11.06</span>お知らせお知らせ</li>
+						<li><span>2020.11.05</span>お知らせお知らせ</li>
+						<li><span>2020.11.04</span>お知らせお知らせ</li>
+						<li><span>2020.11.03</span>お知らせお知らせ</li>
+						<li><span>2020.11.02</span>お知らせお知らせ</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 採用情報 -->
+		<a class="recruit" href="#">
+			<div class="wrapper-recruit">
+				<h2 id="fourthtitle"><img src="images/fourthtitle.png" alt="採用情報"></h2>
+			</div>
+		</a>
+	</main>
+	
+	<!-- フッター -->
+	<footer>
+		<div class="wrapper-footer">
+			<!-- フッターメニュー -->
+			<div class="footer-menu">
+				<!-- メニュー左 -->
+				<div class="footer-menu-left">
+					<!-- メニュー左上 -->
+					<div class="footer-menu-topleft footer-menu-item">
+						<p>会社を知る</p>
+						<ol>
+							<li><a href="#">企業理念</a></li>
+							<li><a href="#">事業紹介</a></li>
+							<li><a href="#">会社概要</a></li>
+						</ol>
+					</div>
+					
+					<!-- メニュー左下 -->
+					<div class="footer-menu-bottomleft footer-menu-item">
+						<p>採用情報</p>
+						<ol>
+							<li><a href="#">概要</a></li>
+							<li><a href="#">求める人材</a></li>
+							<li><a href="#">エントリー</a></li>
+						</ol>
+					</div>
+				</div>
+				
+				<!-- メニュー右 -->
+				<div class="footer-menu-right">
+					<!-- メニュー右上 -->
+					<div class="footer-menu-topright footer-menu-item">
+						<p>社員紹介</p>
+						<ol>
+							<li><a href="#">社長のあいさつ</a></li>
+							<li><a href="#">役員紹介</a></li>
+							<li><a href="#">主力人員紹介</a></li>
+						</ol>
+					</div>
+					
+					<!-- メニュー右下 -->
+					<div class="footer-menu-bottomright footer-menu-item">
+						<p>その他</p>
+						<ol>
+							<li><a href="#">アクセス</a></li>
+							<li><a href="#">お問い合わせ</a></li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			
+			<!-- ロゴと住所 -->
+			<div class="footer-address">
+				<img id="footer-logo" src="images/logo.png">
+				<p>住所 〇〇県〇〇市〇〇 〇-〇-〇</p>
+				<p>郵便番号 〇〇〇-〇〇〇〇</p>
+				<p>代表 〇〇〇〇</p>
+				<p>電話番号 〇〇〇-〇〇〇〇-〇〇〇〇</p>
+			</div>
+		</div>
+		
+		<!-- コピーライト -->
+		<small id="copyright">&copy; 2020 Abyssal Corporation.Inc All rights reserved</small>
+	</footer>
 </body>
 </html>
