@@ -238,7 +238,16 @@ header {
 }
 
 #thirdtitle {
+	display: inline-block;
 	padding-bottom: 64px;
+}
+
+#goto-newspage {
+	display: inline-block;
+	margin-left: 64px;
+	color: #5296ff;
+	text-decoration-color: #5296ff;
+	font-size: 1.1rem;
 }
 
 .news-box {
